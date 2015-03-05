@@ -1,0 +1,10 @@
+package cl.intelidata.utils;
+
+public class Texto {
+	// Parametros URL
+	public static final String COTIZACION = "cotizacion";
+	public static final String CLIENTE = "cliente";
+	public static final String EJECUTIVO = "ejecutivo";
+	public static final String LLAVE = "amicarCotizante";
+
+}

@@ -1,0 +1,143 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cl.intelidata.amicar</groupId>
+	<artifactId>SvlAmicarRead</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>SvlAmicarRead</name>
+	<description />
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<autor>DCESPED</autor>
+	</properties>
+	<organization>
+		<name>Intelidata S.A</name>
+		<url>http://www.intelidata.cl</url>
+	</organization>
+
+	<scm>
+		<connection>scm:svn:https://192.168.1.100/svn/Desarrollo/trunk/${project.artifactId}</connection>
+		<developerConnection>scm:svn:https://192.168.1.100/svn/Desarrollo/trunk/${project.artifactId}</developerConnection>
+		<url>scm:svn:https://192.168.1.100/svn/Desarrollo/trunk/${project.artifactId}</url>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>InteliReleases</id>
+			<name>Internal Releases</name>
+			<url>http://192.168.1.100:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>InteliSnapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://192.168.1.100:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>InteilRepo</id>
+			<url>http://192.168.1.100:8081/nexus/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>cl.intelidata.amicar</groupId>
+			<artifactId>CotizanteAmicarBD</artifactId>
+			<version>0.0.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.7</version>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+		</dependency>
+	</dependencies>
+
+	<!-- Fix Profiles para MyEclipse y tomcat con WS -->
+	<profiles>
+		<profile>
+			<id>tomcatprod</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+				<file>
+					<missing>c:/apps/desarrollo.txt</missing>
+				</file>
+			</activation>
+			<dependencies>
+				<dependency>
+					<groupId>com.sun.xml.ws</groupId>
+					<artifactId>jaxws-rt</artifactId>
+					<version>2.2.5</version>
+				</dependency>
+			</dependencies>
+		</profile>
+
+		<profile>
+			<id>release-profile</id>
+			<activation>
+				<property>
+					<name>performRelease</name>
+					<value>true</value>
+				</property>
+			</activation>
+			<dependencies>
+				<dependency>
+					<groupId>com.sun.xml.ws</groupId>
+					<artifactId>jaxws-rt</artifactId>
+					<version>2.2.5</version>
+				</dependency>
+			</dependencies>
+		</profile>
+	</profiles>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<resources>
+			<resource>
+				<directory>src</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<warSourceDirectory>${basedir}/WebRoot</warSourceDirectory>
+					<version>3.0</version>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

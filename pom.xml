@@ -1,16 +1,18 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>cl.intelidata.amicar</groupId>
-    <artifactId>SvlAmicarRead</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <artifactId>AmicarCotizacion</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
     <packaging>war</packaging>
-    <name>SvlAmicarRead</name>
+    <name>SvlAmicarCotizacion</name>
     <description/>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <autor>DCESPED</autor>
+        <autor>DIEGOF</autor>
     </properties>
     <organization>
         <name>Intelidata S.A</name>
@@ -48,9 +50,8 @@
         <dependency>
             <groupId>cl.intelidata.amicar</groupId>
             <artifactId>CotizanteAmicarBD</artifactId>
-            <version>0.0.4</version>
+            <version>0.0.5-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
@@ -66,6 +67,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jam</groupId>
+            <artifactId>SuperUtils</artifactId>
+            <version>1.0.8</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>

@@ -1,0 +1,49 @@
+10
+
+dir
+0
+https://192.168.1.100/svn/Desarrollo/trunk/SvlAmicarRead/src/cl/intelidata/amicar/referencias
+https://192.168.1.100/svn/Desarrollo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cda9e81e-42d4-be4e-976a-5eae92926b47
+
+Imagenes.java
+file
+
+
+
+add
+
+Texto.java
+file
+
+
+
+add
+
+Url.java
+file
+
+
+
+add
+

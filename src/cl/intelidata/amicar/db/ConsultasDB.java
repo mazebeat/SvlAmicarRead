@@ -5,8 +5,6 @@ import cl.intelidata.amicar.bd.Proceso;
 import cl.intelidata.amicar.bd.ProcesoDAO;
 
 import javax.persistence.Query;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ConsultasDB {
 
@@ -16,15 +14,13 @@ public class ConsultasDB {
 
 	/*******************************************************************************************************/
 	/************************************* Metodos de Consulta *********************************************/
-	/**
-	 * ***************************************************************************************************
-	 */
+	/*******************************************************************************************************/
 
 	@SuppressWarnings("unchecked")
 	public Proceso procesoActivo(Integer iProcesoID) {
 		Proceso proceso = null;
 		try {
-			List<Proceso> procesos = new ArrayList<Proceso>();
+			java.util.List<cl.intelidata.amicar.bd.Proceso> procesos = new java.util.ArrayList<cl.intelidata.amicar.bd.Proceso>();
 			Query query = EntityManagerHelper.createQuery("SELECT p FROM Proceso p WHERE p.idProceso = :idProceso");
 			query.setParameter("idProceso", iProcesoID);
 			procesos = query.getResultList();

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SvlAmicarDesinscritos:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="AmicarDesinscritos-0.0.2-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SvlAmicarDesinscritos:war exploded" />
+    </root>
+  </artifact>
+</component>

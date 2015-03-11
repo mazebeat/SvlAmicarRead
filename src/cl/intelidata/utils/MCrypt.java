@@ -1,6 +1,7 @@
 package cl.intelidata.utils;
 
 /**
+ * MCrypt class
  * Created by Maze on 04-03-2015.
  */
 public class MCrypt {
@@ -23,9 +24,9 @@ public class MCrypt {
 	}
 
 	/**
-	 * @param data
+	 * @param data byte[]
 	 *
-	 * @return
+	 * @return String
 	 */
 	public static String bytesToHex(byte[] data) {
 		if (data == null) {
@@ -44,9 +45,9 @@ public class MCrypt {
 	}
 
 	/**
-	 * @param str
+	 * @param str String
 	 *
-	 * @return
+	 * @return byte[]
 	 */
 	public static byte[] hexToBytes(String str) {
 		if (str == null) {
@@ -64,9 +65,9 @@ public class MCrypt {
 	}
 
 	/**
-	 * @param source
+	 * @param source String
 	 *
-	 * @return
+	 * @return String
 	 */
 	private static String padString(String source) {
 		char paddingChar = ' ';
@@ -82,51 +83,51 @@ public class MCrypt {
 	}
 
 	/**
-	 * @return
+	 * @return javax.crypto.spec.IvParameterSpec
 	 */
 	public javax.crypto.spec.IvParameterSpec getIvspec() {
 		return ivspec;
 	}
 
 	/**
-	 * @param ivspec
+	 * @param ivspec javax.crypto.spec.IvParameterSpec
 	 */
 	public void setIvspec(javax.crypto.spec.IvParameterSpec ivspec) {
 		this.ivspec = ivspec;
 	}
 
 	/**
-	 * @return
+	 * @return javax.crypto.spec.SecretKeySpec
 	 */
 	public javax.crypto.spec.SecretKeySpec getKeyspec() {
 		return keyspec;
 	}
 
 	/**
-	 * @param keyspec
+	 * @param keyspec javax.crypto.spec.SecretKeySpec
 	 */
 	public void setKeyspec(javax.crypto.spec.SecretKeySpec keyspec) {
 		this.keyspec = keyspec;
 	}
 
 	/**
-	 * @return
+	 * @return javax.crypto.Cipher
 	 */
 	public javax.crypto.Cipher getCipher() {
 		return cipher;
 	}
 
 	/**
-	 * @param cipher
+	 * @param cipher javax.crypto.Cipher
 	 */
 	public void setCipher(javax.crypto.Cipher cipher) {
 		this.cipher = cipher;
 	}
 
 	/**
-	 * @param text
+	 * @param text String
 	 *
-	 * @return
+	 * @return byte[]
 	 *
 	 * @throws Exception
 	 */
@@ -134,7 +135,7 @@ public class MCrypt {
 		if (text == null || text.length() == 0)
 			throw new Exception("Empty string");
 
-		byte[] encrypted = null;
+		byte[] encrypted;
 
 		try {
 			this.getCipher().init(javax.crypto.Cipher.ENCRYPT_MODE, this.getKeyspec(), this.getIvspec());
@@ -148,9 +149,9 @@ public class MCrypt {
 	}
 
 	/**
-	 * @param code
+	 * @param code String
 	 *
-	 * @return
+	 * @return byte[]
 	 *
 	 * @throws Exception
 	 */
@@ -158,7 +159,7 @@ public class MCrypt {
 		if (code == null || code.length() == 0)
 			throw new Exception("Empty string");
 
-		byte[] decrypted = null;
+		byte[] decrypted;
 
 		try {
 			this.getCipher().init(javax.crypto.Cipher.DECRYPT_MODE, this.getKeyspec(), this.getIvspec());

@@ -21,14 +21,18 @@
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/.svn" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/.svn" />
+      <excludeFolder url="file://$MODULE_DIR$/target/AmicarRead-0.0.2-SNAPSHOT" />
       <excludeFolder url="file://$MODULE_DIR$/target/SvlAmicarRead-0.0.1" />
       <excludeFolder url="file://$MODULE_DIR$/target/SvlAmicarRead-0.0.2-SNAPSHOT" />
+      <excludeFolder url="file://$MODULE_DIR$/target/apidocs" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/javadoc-bundle-options" />
       <excludeFolder url="file://$MODULE_DIR$/target/m2e-jee" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.4" level="project" />
+    <orderEntry type="library" name="Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.5-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:eclipselink:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" level="project" />

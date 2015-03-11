@@ -1,13 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SvlAmicarRead:war exploded">
-    <output-path>$PROJECT_DIR$/target/SvlAmicarRead-0.0.2-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/AmicarRead-0.0.2-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="SvlAmicarRead" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.4" />
+          <element id="library" level="project" name="Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.5-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:eclipselink:2.5.1" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:commonj.sdo:2.1.1" />

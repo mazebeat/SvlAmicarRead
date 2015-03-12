@@ -2,15 +2,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cl.intelidata.amicar</groupId>
-    <artifactId>SvlAmicarRead</artifactId>
+    <artifactId>AmicarDesinscritos</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>SvlAmicarRead</name>
+    <name>SvlAmicarDesinscritos</name>
     <description/>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <autor>DCESPED</autor>
+        <autor>DIEGOF</autor>
     </properties>
     <organization>
         <name>Intelidata S.A</name>
@@ -48,9 +48,8 @@
         <dependency>
             <groupId>cl.intelidata.amicar</groupId>
             <artifactId>CotizanteAmicarBD</artifactId>
-            <version>0.0.4</version>
+            <version>0.0.5-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>

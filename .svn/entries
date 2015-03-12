@@ -10,8 +10,8 @@ https://192.168.1.100/svn/Desarrollo
 2014-08-26T21:56:20.312500Z
 3113
 dcesped
-
-
+has-props
+has-prop-mods
 svn:special svn:externals svn:needs-lock
 
 
@@ -97,7 +97,7 @@ dcesped
 .settings
 dir
 
-SvlAmicarRead.iml
+SvlAmicarDesinscritos.iml
 file
 0
 

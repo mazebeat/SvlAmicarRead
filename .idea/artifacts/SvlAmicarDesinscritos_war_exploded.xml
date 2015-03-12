@@ -1,10 +1,15 @@
 <component name="ArtifactManager">
+<<<<<<< HEAD:.idea/artifacts/SvlAmicarDesinscritos_war_exploded.xml
+  <artifact type="exploded-war" name="SvlAmicarDesinscritos:war exploded">
+    <output-path>$PROJECT_DIR$/target/AmicarDesinscritos-0.0.2-SNAPSHOT</output-path>
+=======
   <artifact type="exploded-war" name="SvlAmicarRead:war exploded">
     <output-path>$PROJECT_DIR$/target/AmicarRead-0.0.2-SNAPSHOT</output-path>
+>>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9:.idea/artifacts/SvlAmicarRead_war_exploded.xml
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="SvlAmicarRead" />
+          <element id="module-output" name="SvlAmicarDesinscritos" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.5-SNAPSHOT" />
@@ -47,7 +52,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="SvlAmicarRead/web/Web" />
+      <element id="javaee-facet-resources" facet="SvlAmicarDesinscritos/web/Web" />
     </root>
   </artifact>
 </component>

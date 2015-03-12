@@ -1,8 +1,6 @@
 package cl.intelidata.amicar.db;
 
-import cl.intelidata.amicar.bd.EntityManagerHelper;
-import cl.intelidata.amicar.bd.Proceso;
-import cl.intelidata.amicar.bd.ProcesoDAO;
+import cl.intelidata.amicar.bd.*;
 
 import javax.persistence.Query;
 import java.util.ArrayList;
@@ -21,29 +19,29 @@ public class ConsultasDB {
 	 */
 
 	@SuppressWarnings("unchecked")
-	public Proceso procesoActivo(Integer iProcesoID) {
-		Proceso proceso = null;
+	public Clientes clienteActivo(Integer idCliente) {
+		Clientes cliente = null;
 		try {
-			List<Proceso> procesos = new ArrayList<Proceso>();
-			Query query = EntityManagerHelper.createQuery("SELECT p FROM Proceso p WHERE p.idProceso = :idProceso");
-			query.setParameter("idProceso", iProcesoID);
-			procesos = query.getResultList();
-			for (Proceso p : procesos) {
-				proceso = p;
+			List<Clientes> clientes = new ArrayList<Clientes>();
+			Query query = EntityManagerHelper.createQuery("SELECT c FROM Clientes c WHERE c.idCliente = :idCliente");
+			query.setParameter("idCliente", idCliente);
+			clientes = query.getResultList();
+			for (Clientes c : clientes) {
+				cliente = c;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			EntityManagerHelper.closeEntityManager();
 		}
-		return proceso;
+		return cliente;
 	}
 
-	public void updateProceso(Proceso proceso) {
+	public void updateCliente(Clientes cliente) {
 		try {
-			ProcesoDAO procesoDAO = new ProcesoDAO();
+			ClientesDAO clientesDAO = new ClientesDAO();
 			EntityManagerHelper.beginTransaction();
-			procesoDAO.update(proceso);
+			clientesDAO.update(cliente);
 			EntityManagerHelper.commit();
 		} catch (Exception e) {
 			e.printStackTrace();

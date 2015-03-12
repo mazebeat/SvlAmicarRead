@@ -2,9 +2,9 @@ package cl.intelidata.amicar;
 
 import org.slf4j.LoggerFactory;
 
-public class LogLecturas {
+public class LogDesinscritos {
 
-	private static org.slf4j.Logger logger = LoggerFactory.getLogger(LogLecturas.class);
+	private static org.slf4j.Logger logger = LoggerFactory.getLogger(LogDesinscritos.class);
 
 	public static void info(String msg) {
 		logger.info(msg);

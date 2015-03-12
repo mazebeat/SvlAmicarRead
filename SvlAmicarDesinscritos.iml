@@ -21,7 +21,11 @@
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/.svn" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/target/.svn" />
+<<<<<<< HEAD:SvlAmicarDesinscritos.iml
+      <excludeFolder url="file://$MODULE_DIR$/target/AmicarDesinscritos-0.0.2-SNAPSHOT" />
+=======
       <excludeFolder url="file://$MODULE_DIR$/target/AmicarRead-0.0.2-SNAPSHOT" />
+>>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9:SvlAmicarRead.iml
       <excludeFolder url="file://$MODULE_DIR$/target/SvlAmicarRead-0.0.1" />
       <excludeFolder url="file://$MODULE_DIR$/target/SvlAmicarRead-0.0.2-SNAPSHOT" />
       <excludeFolder url="file://$MODULE_DIR$/target/apidocs" />
@@ -29,6 +33,7 @@
       <excludeFolder url="file://$MODULE_DIR$/target/javadoc-bundle-options" />
       <excludeFolder url="file://$MODULE_DIR$/target/m2e-jee" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
+      <excludeFolder url="file://$MODULE_DIR$/target/surefire" />
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

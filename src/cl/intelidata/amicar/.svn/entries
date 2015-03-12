@@ -26,7 +26,11 @@ svn:special svn:externals svn:needs-lock
 
 cda9e81e-42d4-be4e-976a-5eae92926b47
 
+<<<<<<< HEAD
+AmicarDesinscritos.java
+=======
 AmicarRead.java
+>>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
 file
 
 
@@ -89,7 +93,11 @@ file
 
 
 delete
+<<<<<<< HEAD
+2015-03-03T19:07:52.834000Z
+=======
 2015-03-10T14:02:08.823000Z
+>>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
 526912c6985a1267b6645f8e0fce80ad
 2014-08-26T19:18:45.515625Z
 3095

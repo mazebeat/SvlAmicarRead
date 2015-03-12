@@ -2,6 +2,7 @@ package cl.intelidata.amicar;
 
 import cl.intelidata.amicar.bd.Proceso;
 import cl.intelidata.amicar.db.ConsultasDB;
+import cl.intelidata.utils.MCrypt;
 import cl.intelidata.utils.Texto;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
@@ -59,30 +60,36 @@ public class AmicarRead extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		try {
-			if ((request.getParameter(Texto.CLIENTE) != null) && (request.getParameter(Texto.COTIZACION) != null)) {
-				String cotizacion = request.getParameter(Texto.COTIZACION);
-				String cliente = request.getParameter(Texto.CLIENTE);
-				Proceso proceso = new Proceso();
-				Date fecha = new Date();
-				Timestamp time = new Timestamp(fecha.getTime());
-				System.out.println("*************************************** " + time);
+			String cotizacion = request.getParameter(Texto.COTIZACION);
+			String cliente = request.getParameter(Texto.CLIENTE);
+			Proceso proceso = new Proceso();
+			Date fecha = new Date();
+			Timestamp time = new Timestamp(fecha.getTime());
+			System.out.println("*************************************** " + time);
 
-				if (cliente != null && cotizacion != null) {
-					proceso = this.procesoCliente(cliente, cotizacion);
-					if (proceso != null) {
-						if (proceso.getFechaAperturaMail() == null) {
-							proceso.setFechaAperturaMail(time);
-							this.actualizarProceso(proceso);
-						}
+			if (cliente != null && cotizacion != null) {
+
+				cl.intelidata.utils.MCrypt mcrypt = new cl.intelidata.utils.MCrypt();
+				String cli = new String(mcrypt.decrypt(cliente));
+				String cot = new String(mcrypt.decrypt(cotizacion));
+
+				proceso = this.procesoCliente(cliente, cotizacion);
+
+				if (proceso != null) {
+					if (proceso.getFechaAperturaMail() == null) {
+						proceso.setFechaAperturaMail(time);
+						logger.info("Actualizando proceso", proceso);
+						this.actualizarProceso(proceso);
+
+						logger.info(String.format("Registrando lectura %s - %s - %s", cli, cot, sdf.format(fecha)));
+					} else {
+						logger.info("Proceso ya leido", proceso);
 					}
-					cl.intelidata.utils.MCrypt mcrypt = new cl.intelidata.utils.MCrypt();
-					String cli = new String(mcrypt.decrypt(cliente));
-					String cot = new String(mcrypt.decrypt(cotizacion));
-
-					logger.info(String.format("Registrando lectura %s - %s - %s", cli, cot, sdf.format(fecha)));
-					LogLecturas.info(cliente + "|" + cotizacion + "|" + sdf.format(fecha));
-
+				} else {
+					logger.info("No se encontro proceso BDD");
 				}
+
+				LogLecturas.info(cliente + "|" + cotizacion + "|" + sdf.format(fecha));
 			} else {
 				logger.warn("No se encontraron parametros de entrada");
 			}
@@ -97,7 +104,7 @@ public class AmicarRead extends HttpServlet {
 	private Proceso procesoCliente(String strCliente, String strCotizacion) {
 		Proceso proceso = null;
 		try {
-			cl.intelidata.utils.MCrypt mcrypt = new cl.intelidata.utils.MCrypt();
+			MCrypt mcrypt = new MCrypt();
 			String cli = new String(mcrypt.decrypt(strCliente)).trim();
 			String cot = new String(mcrypt.decrypt(strCotizacion)).trim();
 

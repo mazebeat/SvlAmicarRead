@@ -23,7 +23,7 @@
 
 <body>
 This is my JSP page.
-SvlAmicarDesinscritos
+SvlAmicarRead
 <br>
 </body>
 </html>

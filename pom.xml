@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cl.intelidata.amicar</groupId>
-    <artifactId>AmicarDesinscritos</artifactId>
+    <artifactId>AmicarRead</artifactId>
     <version>0.0.2-SNAPSHOT</version>
 
     <packaging>war</packaging>
-    <name>SvlAmicarDesinscritos</name>
+    <name>SvlAmicarRead</name>
     <description/>
 
     <properties>

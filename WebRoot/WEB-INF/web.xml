@@ -2,17 +2,18 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
-    <display-name>AmicarDesinscritos</display-name>
+    <display-name>AmicarRead</display-name>
+
     <servlet>
-        <description>Amicar Desinscritos 2015</description>
-        <display-name>SVLAmicarDesinscritos</display-name>
-        <servlet-name>AmicarDesinscritos</servlet-name>
-        <servlet-class>cl.intelidata.amicar.AmicarDesinscritos</servlet-class>
+        <description>Amicar Lectura</description>
+        <display-name>SVLAmicarRead 2015</display-name>
+        <servlet-name>AmicarRead</servlet-name>
+        <servlet-class>cl.intelidata.amicar.AmicarRead</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>AmicarDesinscritos</servlet-name>
-        <url-pattern>/servlet/AmicarDesinscritos</url-pattern>
+        <servlet-name>AmicarRead</servlet-name>
+        <url-pattern>/servlet/AmicarRead</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>

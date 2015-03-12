@@ -9,25 +9,6 @@
     <list default="true" readonly="true" id="94780eba-9c0e-4bc3-a2cc-b424f1e12fc4" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cl/intelidata/amicar/blank.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cl/intelidata/utils/MCrypt.java" />
-<<<<<<< HEAD
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SvlAmicarDesinscritos.iml" />
-      <change type="DELETED" beforePath="E:\Projects\Java\SvlAmicarDesinscritos\src\cl\intelidata\utils\Cifrador.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\SvlAmicarDesinscritos\src\cl\intelidata\amicar\imagen0.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/.jsdtscope" afterPath="$PROJECT_DIR$/.settings/.jsdtscope" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java" afterPath="$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cl/intelidata/amicar/LogLecturas.java" afterPath="$PROJECT_DIR$/src/cl/intelidata/amicar/LogLecturas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java" afterPath="$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" />
-=======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SvlAmicarRead.iml" />
       <change type="DELETED" beforePath="E:\Projects\Java\SvlAmicarRead\src\cl\intelidata\utils\Cifrador.java" afterPath="" />
       <change type="DELETED" beforePath="E:\Projects\Java\SvlAmicarRead\src\cl\intelidata\amicar\imagen0.gif" afterPath="" />
@@ -37,19 +18,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java" afterPath="$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml.releaseBackup" afterPath="$PROJECT_DIR$/pom.xml.releaseBackup" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release.properties" afterPath="$PROJECT_DIR$/release.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-<<<<<<< HEAD
-      <change type="MOVED" beforePath="E:\Projects\Java\SvlAmicarDesinscritos\src\cl\intelidata\amicar\ReadAmicar.java" afterPath="$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java" />
-=======
       <change type="MOVED" beforePath="E:\Projects\Java\SvlAmicarRead\src\cl\intelidata\amicar\ReadAmicar.java" afterPath="$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarRead.java" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
     </list>
     <ignored path="SvlAmicarRead.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,18 +32,10 @@
     <ignored path="$PROJECT_DIR$/target/SvlAmicarRead-0.0.1/" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/SvlAmicarRead-0.0.2-SNAPSHOT/" />
-<<<<<<< HEAD
-    <ignored path="$PROJECT_DIR$/target/AmicarDesinscritos-0.0.2-SNAPSHOT/" />
-    <ignored path="$PROJECT_DIR$/target/classes/" />
-    <ignored path="$PROJECT_DIR$/target/apidocs/" />
-    <ignored path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
-    <ignored path="$PROJECT_DIR$/target/surefire/" />
-=======
     <ignored path="$PROJECT_DIR$/target/apidocs/" />
     <ignored path="$PROJECT_DIR$/target/javadoc-bundle-options/" />
     <ignored path="$PROJECT_DIR$/target/AmicarRead-0.0.2-SNAPSHOT/" />
     <ignored path="$PROJECT_DIR$/target/classes/" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +67,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
       <file leaf-file-name="AmicarRead.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarRead.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,60 +75,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-<<<<<<< HEAD
-      <file leaf-file-name="AmicarDesinscritos.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05376344" vertical-offset="1153" max-vertical-offset="3281">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogLecturas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/LogLecturas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-=======
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4678899" vertical-offset="0" max-vertical-offset="545">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-=======
-      <file leaf-file-name="AmicarRead.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarRead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2788">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
-              <folding />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
             </state>
           </provider>
         </entry>
@@ -172,18 +82,8 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="544">
               <caret line="4" column="28" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="28" />
-=======
-<<<<<<< HEAD
-            <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="918">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-=======
-            <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="408">
-              <caret line="8" column="75" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="75" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
               <folding />
             </state>
           </provider>
@@ -195,17 +95,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/cl/intelidata/utils/Cifrador.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/cl/intelidata/utils/MCrypt.java" />
-        <option value="$PROJECT_DIR$/src/cl/intelidata/amicar/ReadAmicar.java" />
-        <option value="$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java" />
-        <option value="$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java" />
-=======
         <option value="$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java" />
         <option value="$PROJECT_DIR$/../CotizanteAmicarBD/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/cl/intelidata/amicar/ReadAmicar.java" />
@@ -217,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/cl/intelidata/amicar/LogLecturas.java" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarRead.java" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
       </list>
     </option>
   </component>
@@ -251,7 +139,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="SvlAmicarDesinscritos" />
+          <option name="myItemId" value="SvlAmicarRead" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -261,7 +149,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="SvlAmicarDesinscritos" />
+          <option name="myItemId" value="SvlAmicarRead" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -308,42 +196,28 @@
       <sortByType />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="PackagesPane" />
-=======
-<<<<<<< HEAD
-      <pane id="Scope" />
-=======
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SvlAmicarDesinscritos" />
+              <option name="myItemId" value="SvlAmicarRead" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SvlAmicarDesinscritos" />
+              <option name="myItemId" value="SvlAmicarRead" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SvlAmicarDesinscritos" />
+              <option name="myItemId" value="SvlAmicarRead" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
-      <pane id="PackagesPane" />
-<<<<<<< HEAD
-=======
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
       <pane id="Scope" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +230,7 @@
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SvlAmicarCotizacion2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
@@ -365,20 +239,9 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="true" />
-<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Modules" />
-=======
-<<<<<<< HEAD
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
-=======
-    <property name="project.structure.last.edited" value="Artifacts" />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -759,33 +622,18 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="Proceso.java" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.4/CotizanteAmicarBD-0.0.4-sources.jar!/cl/intelidata/amicar/db/Proceso.java">
-      <method />
-    </configuration>
-    <configuration default="false" name="localhost" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.43" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AmicarDesinscritos/servlet/AmicarDesinscritos?cotizacion=073a878868934ab06fd9cb216c1c28da&amp;cliente=e4d5103c9d7b3a396d43d444f40ca3c6" />
-      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-=======
     <configuration default="false" name="localhost" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.43" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AmicarReader/servlet/AmicarReader?cliente=e1a15dce8daac2c2ecab1849af4a57f4&amp;cotizacion=e1a15dce8daac2c2ecab1849af4a57f4&amp;action=e7df5c0975d0879f4fec7292f9eea5d9" />
       <option name="UPDATING_POLICY" value="restart-server" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
       <deployment>
-        <artifact name="SvlAmicarDesinscritos:war">
+        <artifact name="SvlAmicarRead:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-<<<<<<< HEAD
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SvlAmicarRead_2" />
-        <option name="JNDI_PORT" value="1098" />
-=======
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_SvlAmicarRead" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -847,13 +695,12 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SvlAmicarDesinscritos:war" />
+          <artifact name="SvlAmicarRead:war" />
         </option>
       </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Proceso.java" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.localhost" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.localhost" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -868,16 +715,16 @@
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\Projects\Java\SvlAmicarDesinscritos" />
-          <option name="myCopyRoot" value="E:\Projects\Java\SvlAmicarDesinscritos" />
+          <option name="myVcsRoot" value="E:\Projects\Java\SvlAmicarRead" />
+          <option name="myCopyRoot" value="E:\Projects\Java\SvlAmicarRead" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="E:\Projects\Java\SvlAmicarDesinscritos" />
-          <option name="myCopyRoot" value="E:\Projects\Java\SvlAmicarDesinscritos" />
+          <option name="myVcsRoot" value="E:\Projects\Java\SvlAmicarRead" />
+          <option name="myCopyRoot" value="E:\Projects\Java\SvlAmicarRead" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -893,28 +740,6 @@
       <workItem from="1425495263755" duration="3974000" />
       <workItem from="1425520946893" duration="1977000" />
       <workItem from="1425578114355" duration="3468000" />
-<<<<<<< HEAD
-      <workItem from="1425654168811" duration="29000" />
-      <workItem from="1425654277085" duration="6026000" />
-      <workItem from="1425930198915" duration="5664000" />
-      <workItem from="1425937444767" duration="608000" />
-      <workItem from="1425948156875" duration="59000" />
-      <workItem from="1425952171528" duration="597000" />
-      <workItem from="1425955534968" duration="214000" />
-      <workItem from="1426001765174" duration="1189000" />
-      <workItem from="1426014635796" duration="13000" />
-      <workItem from="1426021123982" duration="203000" />
-      <workItem from="1426028978397" duration="4341000" />
-      <workItem from="1426085991649" duration="405000" />
-      <workItem from="1426102127051" duration="379000" />
-      <workItem from="1426102543016" duration="705000" />
-      <workItem from="1426104863343" duration="24000" />
-      <workItem from="1426105102167" duration="274000" />
-      <workItem from="1426105488606" duration="360000" />
-      <workItem from="1426106445526" duration="82000" />
-      <workItem from="1426108478512" duration="359000" />
-      <workItem from="1426132462241" duration="2293000" />
-=======
       <workItem from="1425654168811" duration="108000" />
       <workItem from="1425655540782" duration="5720000" />
       <workItem from="1425670556874" duration="3465000" />
@@ -929,7 +754,6 @@
       <workItem from="1426034661257" duration="2360000" />
       <workItem from="1426077585279" duration="5749000" />
       <workItem from="1426085772427" duration="60000" />
-<<<<<<< HEAD
       <workItem from="1426090091748" duration="2976000" />
       <workItem from="1426100875319" duration="1187000" />
       <workItem from="1426102076643" duration="49000" />
@@ -937,23 +761,11 @@
       <workItem from="1426109345633" duration="1526000" />
       <workItem from="1426131109400" duration="1000" />
       <workItem from="1426135408695" duration="635000" />
-=======
-      <workItem from="1426090091748" duration="875000" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="48591000" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="40196000" />
-=======
-    <option name="totallyTimeSpent" value="42972000" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -979,7 +791,6 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
-<<<<<<< HEAD
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5686275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -987,49 +798,10 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36928105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36928105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19515885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36928105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18835099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-=======
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.204236" sideWeight="0.54575163" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19515885" sideWeight="0.45424837" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35098335" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62091506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39215687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5686275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18954249" sideWeight="0.50075644" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1042,22 +814,14 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25945538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4379085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.624183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1079,9 +843,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-<<<<<<< HEAD
-      <option name="time" value="12" />
-=======
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java</url>
@@ -1096,150 +857,11 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-<<<<<<< HEAD
       <option name="time" value="12" />
-=======
-      <option name="time" value="10" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="942" max-vertical-offset="2652">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="918">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
-          <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="986">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2958">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.4/CotizanteAmicarBD-0.0.4-sources.jar!/cl/intelidata/amicar/bd/Clientes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.4/CotizanteAmicarBD-0.0.4-sources.jar!/cl/intelidata/amicar/bd/Proceso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1700">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="918">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="918">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2618">
-          <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-=======
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
@@ -1327,7 +949,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#641#671#0" expanded="false" />
           </folding>
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
         </state>
       </provider>
     </entry>
@@ -1356,19 +977,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3009">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-=======
-<<<<<<< HEAD
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-=======
-          <folding />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
         </state>
       </provider>
     </entry>
@@ -1384,19 +995,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarRead.java">
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2618">
           <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-=======
-<<<<<<< HEAD
-=======
-          <folding />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
         </state>
       </provider>
     </entry>
@@ -1408,7 +1012,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#641#671#0" expanded="false" />
           </folding>
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
         </state>
       </provider>
     </entry>
@@ -1426,15 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2599" max-vertical-offset="2992">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-=======
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#641#671#0" expanded="false" />
@@ -1446,14 +1040,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2599" max-vertical-offset="2992">
           <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-<<<<<<< HEAD
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-=======
-          <folding />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
         </state>
       </provider>
     </entry>
@@ -1475,13 +1064,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="884">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-<<<<<<< HEAD
-=======
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#641#671#0" expanded="false" />
           </folding>
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
         </state>
       </provider>
     </entry>
@@ -1513,18 +1099,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-=======
     <entry file="file://$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37842464" vertical-offset="0" max-vertical-offset="584">
@@ -1535,54 +1109,10 @@
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.4/CotizanteAmicarBD-0.0.4-sources.jar!/cl/intelidata/amicar/bd/Proceso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.4/CotizanteAmicarBD-0.0.4-sources.jar!/cl/intelidata/amicar/bd/Clientes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.5-SNAPSHOT/CotizanteAmicarBD-0.0.5-20150306.200557-7.jar!/cl/intelidata/amicar/bd/ClientesDAO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="3451">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.5-SNAPSHOT/CotizanteAmicarBD-0.0.5-20150306.200557-7.jar!/cl/intelidata/amicar/bd/Clientes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5952381" vertical-offset="1358" max-vertical-offset="1904">
-          <caret line="175" column="17" selection-start-line="175" selection-start-column="17" selection-end-line="175" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SvlAmicarDesinscritos.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml.releaseBackup">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="65.833336" vertical-offset="1975" max-vertical-offset="2516">
-=======
     <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.5-SNAPSHOT/CotizanteAmicarBD-0.0.5-20150306.192103-5.jar!/cl/intelidata/amicar/bd/IProcesoDAO.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1827957" vertical-offset="0" max-vertical-offset="408">
@@ -1689,7 +1219,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1698,97 +1227,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="986">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cl/intelidata/amicar/CotizanteAmicarBD/0.0.5-SNAPSHOT/CotizanteAmicarBD-0.0.5-20150306.200557-7.jar!/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49908257" vertical-offset="0" max-vertical-offset="545">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/utils/MCrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6969178" vertical-offset="0" max-vertical-offset="2805">
-          <caret line="139" column="66" selection-start-line="139" selection-start-column="54" selection-end-line="139" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/utils/Texto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68421054" vertical-offset="68" max-vertical-offset="391">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2516">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="37" selection-end-column="29" />
-          <folding />
-=======
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7616488" vertical-offset="0" max-vertical-offset="595">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-=======
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/release.properties">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state vertical-scroll-proportion="0.08916084" vertical-offset="0" max-vertical-offset="572">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-=======
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="527">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/db/ConsultasDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="918">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2822">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cl/intelidata/utils/MCrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state vertical-scroll-proportion="0.85464096" vertical-offset="90" max-vertical-offset="2822">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
@@ -1798,54 +1255,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20481928" vertical-offset="0" max-vertical-offset="374">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2788">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
-          <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-=======
-    <entry file="file://$PROJECT_DIR$/release.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="408">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="75" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/LogLecturas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cl/intelidata/amicar/AmicarDesinscritos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05376344" vertical-offset="1153" max-vertical-offset="3281">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-=======
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="544">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="28" />
-=======
-        <state vertical-scroll-proportion="0.4678899" vertical-offset="0" max-vertical-offset="545">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
           <folding />
         </state>
       </provider>
@@ -1866,23 +1282,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-<<<<<<< HEAD
           <last-edited>SvlAmicarRead:Web exploded</last-edited>
-=======
-<<<<<<< HEAD
-          <last-edited>SvlAmicarDesinscritos:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-=======
-          <last-edited>SvlAmicarRead:war exploded</last-edited>
->>>>>>> f129541cf06bfdd4476a736c0a7e198f7d0754b1
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
                 <option value="0.5" />
               </list>
             </option>
@@ -1891,19 +1295,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-<<<<<<< HEAD
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-=======
           <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
               </list>
             </option>
           </splitter-proportions>
@@ -1914,11 +1310,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-<<<<<<< HEAD
-                <option value="0.2" />
-=======
                 <option value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
               </list>
             </option>
           </splitter-proportions>
@@ -1930,11 +1322,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-<<<<<<< HEAD
-                <option value="0.2" />
-=======
                 <option value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
               </list>
             </option>
           </splitter-proportions>
@@ -1942,19 +1330,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-<<<<<<< HEAD
-          <last-edited>SvlAmicarDesinscritos</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-=======
           <last-edited>Web|SvlAmicarRead</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
               </list>
             </option>
           </splitter-proportions>
@@ -1962,19 +1342,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-<<<<<<< HEAD
-          <last-edited>Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-=======
           <last-edited>Maven: cl.intelidata.amicar:CotizanteAmicarBD:0.0.5-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.32397005" />
->>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9
               </list>
             </option>
           </splitter-proportions>

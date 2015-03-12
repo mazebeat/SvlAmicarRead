@@ -12,6 +12,4 @@ public class Texto {
 	 */
 	public static final String KEY = "amicarCotizantes";
 	public static final String IV  = "a1m2i3c4a5r6C7o8";
-
-	public static final String LANDING_URL = "http://localhost:8000/SolicitudCotizacionAmicar";
 }

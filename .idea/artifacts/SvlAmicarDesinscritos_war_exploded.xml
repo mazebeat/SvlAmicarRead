@@ -1,6 +1,11 @@
 <component name="ArtifactManager">
+<<<<<<< HEAD:.idea/artifacts/SvlAmicarDesinscritos_war_exploded.xml
   <artifact type="exploded-war" name="SvlAmicarDesinscritos:war exploded">
     <output-path>$PROJECT_DIR$/target/AmicarDesinscritos-0.0.2-SNAPSHOT</output-path>
+=======
+  <artifact type="exploded-war" name="SvlAmicarRead:war exploded">
+    <output-path>$PROJECT_DIR$/target/AmicarRead-0.0.2-SNAPSHOT</output-path>
+>>>>>>> 76a66b12ed778eec8caa6e60048122443ba30ae9:.idea/artifacts/SvlAmicarRead_war_exploded.xml
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

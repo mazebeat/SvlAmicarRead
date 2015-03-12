@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SvlAmicarRead:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/SvlAmicarRead_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SvlAmicarRead/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SvlAmicarRead" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

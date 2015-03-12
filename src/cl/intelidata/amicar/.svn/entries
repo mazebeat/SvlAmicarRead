@@ -33,12 +33,35 @@ file
 
 add
 
+LogCotizacion.java
+file
+
+
+
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+copied
+https://192.168.1.100/svn/Desarrollo/trunk/SvlAmicarRead/src/cl/intelidata/amicar/LogLecturas.java
+4208
+
 LogLecturas.java
 file
 
 
 
-
+delete
 2015-03-03T19:07:52.829000Z
 c165d787ce05aa5cc11511a743ee288b
 2014-08-26T18:08:21.562500Z
@@ -116,7 +139,7 @@ file
 
 
 
-
+delete
 2015-03-03T19:07:52.831000Z
 560c5517d432b3b91011dd729a63e5ae
 2014-08-26T18:08:21.562500Z

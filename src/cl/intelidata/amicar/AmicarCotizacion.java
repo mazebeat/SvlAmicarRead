@@ -26,7 +26,6 @@ public class AmicarCotizacion extends HttpServlet {
 	 */
 	public AmicarCotizacion() {
 		super();
-
 	}
 
 	public static void main(String args[]) {
@@ -53,6 +52,7 @@ public class AmicarCotizacion extends HttpServlet {
 	 * @throws IOException      if an error occurred
 	 */
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String opt = "L";
 
 		try {
 			if ((request.getParameter(Texto.COTIZACION) != null)) {
@@ -70,23 +70,52 @@ public class AmicarCotizacion extends HttpServlet {
 				} else {
 					System.out.println(Texto.MENSAJE_PROCESO_INVALIDO);
 					logger.info(Texto.MENSAJE_PROCESO_INVALIDO, 10);
+					opt = "A";
 				}
 			} else {
-				System.out.println(Texto.MENSAJE_PROCESO_INVALIDO);
-				logger.error(Texto.MENSAJE_PROCESO_INVALIDO, 10);
+				logger.error("No se encontraron parametros de entrada");
+				opt = "A";
 			}
-
-			String dominioLanding = Configuracion.getInstance().getInitParameter("dominioLanding");
-
-			if (!dominioLanding.trim().endsWith("?")) {
-				dominioLanding = dominioLanding.trim().concat("?");
-			}
-
-			response.sendRedirect(dominioLanding.concat(request.getQueryString()));
 		} catch (Exception e) {
-			System.out.println("Error al leer imagen lectura");
-			logger.error("Error al leer imagen lectura", e);
+			System.out.println(e.getMessage());
+			logger.error("Error al procesar Cotizacion", e);
+			opt = "A";
 		}
+
+		this.redirect(request, response, opt);
+	}
+
+	public void redirect(HttpServletRequest request, HttpServletResponse response, String opt) {
+		response.setContentType("text/html");
+		String site = "http://www.amicar.cl";
+
+		if (opt.equalsIgnoreCase("L")) {
+			try {
+				logger.info("Obteniendo URL Landing desde archivo properties");
+				site = Configuracion.getInstance().getInitParameter("dominioLanding");
+
+				if (!site.trim().endsWith("?")) {
+					site = site.trim().concat("?");
+				}
+
+				if (request.getQueryString() != null) {
+					logger.info("Redireccionando hacia Landing");
+					site = site.concat(request.getQueryString());
+				} else {
+					logger.info("Redireccionando hacia Amicar");
+					logger.warn("Parametros nulos cambiando URL hacia Amicar");
+					site = "http://www.amicar.cl";
+				}
+			} catch (Exception e) {
+				logger.error("Error al redireccionar.", e);
+			}
+		} else {
+			logger.info("Redireccionando hacia Amicar");
+		}
+
+		logger.info("Redireccionando a " + site);
+		response.setStatus(response.SC_MOVED_PERMANENTLY); // SC_MOVED_TEMPORARILY //SC_MOVED_PERMANENTLY
+		response.setHeader("Location", site);
 	}
 
 	/**
